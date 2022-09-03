@@ -32,6 +32,7 @@ body p, body a{
 }
 body button{
      outline: none;
+     border: none;
 }
 header{
      background: var(--primary);
