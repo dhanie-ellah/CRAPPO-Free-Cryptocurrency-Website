@@ -30,6 +30,9 @@ body[data-aos-duration='4000'] [data-aos],
 body p, body a{
      font-weight: 300;
 }
+body button{
+     outline: none;
+}
 header{
      background: var(--primary);
      color: var(--white);
@@ -256,10 +259,6 @@ header .header-content .landing-page .image img{
      border: none;
      border-bottom: 1px solid var(--grey1);
 }
-.check .calculate .inputs input[type='text']:enabled{
-     border: none;
-     border-bottom: 1px solid var(--grey1);
-}
 .check .calculate .inputs select{
      width: 25%;
      padding: 10px;
@@ -270,7 +269,7 @@ header .header-content .landing-page .image img{
 }
 .check .calculate .inputs input:focus{
      outline: none;
-     border: none;
+     border-bottom: 1px solid var(--grey1);
 }
 .check .calculate .inputs input[type='submit']{
      background-color: var(--accent);
@@ -668,6 +667,14 @@ footer .footer-content .bottom .social-icons i:hover{
      }
      .check .calculate{
           width: 90%;
+     }
+     .check .calculate .inputs{
+          flex-wrap: wrap;
+          margin-bottom: 20px;
+     }
+     .check .calculate .inputs input[type='text']{
+          width: 100%;
+          margin-bottom: 15px;
      }
      .crypto .crypto-content>h1{
           width: 100%;
