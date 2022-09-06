@@ -323,10 +323,6 @@ header .header-content .landing-page .image img{
      margin-bottom: 25px;
      transition: 0.5s;
 }
-.crypto .crypto-content .cryptocurrency:hover{
-     background-color: var(--secondary);
-     color: var(--white);
-}
 .crypto .crypto-content .cryptocurrency h1{
      font-size: 20px;
      margin: auto;
@@ -352,8 +348,8 @@ header .header-content .landing-page .image img{
      border: none;
      cursor: pointer;
 }
-.crypto .crypto-content .cryptocurrency:hover button{
-     display: block;
+.crypto .crypto-content .cryptocurrency button{
+     display: none;
 }
 .crypto .crypto-content .cryptocurrency button i{
      color: var(--accent);
@@ -368,8 +364,17 @@ header .header-content .landing-page .image img{
      border: 2px solid var(--grey2);
      padding: 8px;
      border-radius: 50%;
+     width: fit-content;
+     margin: auto;
 }
-.crypto .crypto-content .cryptocurrency:hover > i{
+.crypto .crypto-content .active{
+     background-color: var(--secondary);
+     color: white;
+}
+.crypto .crypto-content .active button{
+     display: block;
+}
+.crypto .crypto-content .active > i{
      display: none;
 }
 .features{
