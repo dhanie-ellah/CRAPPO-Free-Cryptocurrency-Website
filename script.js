@@ -26,7 +26,7 @@ const mineBtc = document.getElementById('mine-btc')
 const mineEth = document.getElementById('mine-eth')
 const mineLte = document.getElementById('mine-lte')
 
-btcBtn.onclick = () => {
+bitcoin.onclick = () => {
      // BITCOIN CARD 
      bitcoin.style.backgroundColor = 'var(--secondary)'
      bitcoin.style.color = 'white'
@@ -43,7 +43,7 @@ btcBtn.onclick = () => {
      lteBtn.style.display = 'block'
      mineLte.style.display = 'none'
 }
-ethBtn.onclick = () => {
+ethereum.onclick = () => {
      // BITCOIN CARD 
      bitcoin.style.backgroundColor = 'transparent'
      bitcoin.style.color = 'black'
@@ -60,7 +60,7 @@ ethBtn.onclick = () => {
      lteBtn.style.display = 'block'
      mineLte.style.display = 'none'
 }
-lteBtn.onclick = () => {
+litecoin.onclick = () => {
 // BITCOIN CARD 
      bitcoin.style.backgroundColor = 'transparent'
      bitcoin.style.color = 'black'
