@@ -91,7 +91,7 @@ header .header-content nav .links a:hover{
 }
 header .header-content nav .links .form{
      display: flex;
-     align-items: center;
+     align-items: baseline;
      gap: 10px;
 }
 header .header-content nav .links .form a:last-child{
